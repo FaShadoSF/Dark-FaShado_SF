@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fashado</title>
+
+    <script></script>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+      
+  </script>
+  <script>
+
+
+
+
+function username2() {
+  let username2 = prompt("Please enter your name", "");
+  if (username2 == "Dark_FaShado_SF") {
+    document.getElementById("contnamebox").innerHTML =username2;
+alert(" ENTER PASSWORD : ")    
+    
+  }else {
+      document.getElementById("contnamebox").innerHTML = " SORRY WRONG USERNAME -(TRY AGAIN)";
+  }
+}
+
+function password2() {
+  let userpassword2 = prompt("Please enter your password", "");
+  if (userpassword2 == "ix1344_SF_odahSaF_kraD") {
+    document.getElementById("TheRealContent").style.display=" block";
+document.getElementById("loginstartform").style.display=" none";
+    
+  } else {
+document.getElementById("contpassbox").innerHTML ="SORRY WRONG PASSWORD(TRY AGAIN)";            
+  }
+}
+
+
+
+
+</script>
+  
+    <style>
+        a{
+            text-decoration: none;
+        }
+         .articledet{
+                  backface-visibility: visible;
+                  background:transparent;
+                  height: 50px;
+                  width: auto;
+                  padding: 10px;
+                  text-align: right;
+                  }
+   .articleblog{
+       color: white;
+       background:#171b2ded;
+       height: auto;
+       width: 100%;
+       border: 2px solid white;
+       box-sizing: border-box;
+       box-shadow: 2px 2px 4px white;
+       padding:20px;
+       text-align:left;
+       font-size:20px;
+       }
+
+       input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.qlabel{
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-size:20px;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+        header{
+            background:#0f0e37;
+            color: white;
+            height:300px;
+            width:100%;
+            padding:10px;
+            border:none;
+            text-align:center;
+        }
+        .highlight{
+            color: orangered;
+            font-size: 40px;
+            
+        }
+        footer{
+            background-color: orangered;
+            height: 150px;
+            width: 100%;
+            color: white;
+            padding:20px;
+        }
+        button {
+            color: white;
+            background-color:#2b2b2b;
+            border-radius: 5px;
+            height: 70px;
+            width: 100%;
+            border: none;
+            font-size:20px;
+            font-family:courier ;
+        }
+        label{
+            color: black;
+            font-size: 40px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="loginstartform">
+    <header data-aos="fade-down" data-aos-duration="2000"><h1 style="color:orangered;font-size:50px;" data-aos="flip-right" data-aos-duration="2000" data-aos-delay="2000"><br>FaShado.Inc </h1>
+    <h2  data-aos="flip-right" data-aos-duration="2000" data-aos-delay="2200" ><kbd >Login to Continue</kbd></h2><br>
+    <p data-aos="flip-right" data-aos-duration="2000" data-aos-delay="2500" ><code>Note that we all (members) have same username and password.</code></p></header>
+    <br><br>
+    
+    
+    <div>
+    <h1 style="text-align:center;" data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="2000" >Login to Continue</h1>
+    <br>
+ <div class="container-fluid p-10 my-10 bg-light text-dark " style="height:auto;" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="2100">
+     <br>
+     <label>Username : </label><br>
+     <button onclick="username2()" id="contnamebox">ENTER YOUR USERNAME : </button>
+     
+     <label>Password : </label><br>
+     <button onclick="password2()" id="contpassbox">ENTER YOUR PASSWORD : </button>
+     <br><br><br>
+     
+     
+     
+     
+     
+     
+ </div>   
+</div>
+    <footer>
+        
+    </footer>
+    
+    </div>
+    
+    
+    
+    
+    
+    <!-- the real content  -->
+    <div style="display:none;" id="TheRealContent">
+    <header>
+      <div class="container">
+        <div id="branding">
+          <br><br><h1><span class="highlight"> The <br>DarkFashado. Inc </span></h1>
+          <code>Welcome to our webpage.You can find the legalized things and policies here. </code>
+        </div>
+    <br>
+    <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-bs-toggle="tab" href="#home">Home</a>
+    </li>
+   
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="tab" href="#members">Members</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="tab" href="#news">News</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="tab" href="#queries">Queries</a>
+    </li>
+    
+  </ul>
+    </div>
+    </header>
+    <br><br>
+<div class="tab-content">  
+    
+    
+ <!--  -->  
+    <div class="container tab-pane active" id="home">
+     <div class="container p-5 my-5 border">
+  <h1>WELCOME TO MY TEAM </h1>
+  <p>Note that this is made as the official website of my team in April-15-2023 where all the news and updates regarding our society would be posted here using interactive web.</p>
+</div>
+
+<div class="container p-5 my-5 bg-dark text-white">
+  <u>  <h1>Objective and motto</h1><br></u>
+  <h5> The main objective of this team is to maintain peace and to have the full controll and authority over everything in this world and I am SYSS()</h5>
+  <p>To join my team you do not have any online choice.You have only offline method for registering.</p>
+</div>
+
+<div class="container p-5 my-5 bg-primary text-white">
+  <h1>THE COMMANDERS</h1>
+  <p>My friend <b>Mr.JURY(8:15)</b> is the commander of this team. I am the <b>Acting commander of this team </b><br></p>
+  
+  
+</div>
+</div>
+<!-- nav queries menu  -->
+
+<div class="container tab-pane fade" id="queries">
+    
+    <div class="container">
+  <form action="https://getform.io/f/3466cabb-4ef2-4cd2-87a3-5687cc3e878f" method="POST">
+    <div class="row">
+      <div class="col-25">
+        <label class="qlabel" for="fname">First Name</label><br>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label class="qlabel "for="lname">Last Name </label><br>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        
+        <label class="qlabel" for="queries">Queries</label><br>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="queries" placeholder="Write something.." style="height:200px"></textarea><br>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+<br>
+    
+    
+</div>
+<!-- members started -->
+<div class="container bg-light text-dark text-justify tab-pane fade" id="members" style="height:auto">
+    <div class="container p-5 my-5 bg-dark text-success">
+  <h1 class="text-secondary border-3 border-light"> Why Members? </h1>
+  <h5 class="font-weight-light font-italic text-info  ">The reason for this question is:</h5>
+  <p>
+      <ul class="list-group">
+          <li>Helps in professional management.</li>
+          <li>Helps in verifying and administration of every activities.</li>
+          <li>Simple to rule and guide. </li>
+          <li>Planning and executive exercises.</li>
+          <li>Accomplishing missions and targets. </li>
+          
+      </ul>
+  </p>
+  
+  
+</div>
+
+
+  <div class="container p-5 my-5   bg-dark text-white " style="border-left:10px solid green;">
+  <h1 class="text-secondary">COMMANDOS</h1>
+  <h5>
+      <ul class="text-light">
+          <li><b>Chief Commando : </b> <em>JURY(8:15) </em></li>
+          <li><b>Acting Commando :<br></b><em>SYSS(15:54)</em> </li>
+      </ul>
+  </h5>
+  <p class="text-info">The work of the commanders is to maintain and rule or guide the team,giving access plans to improve  or develop.</p>
+  
+  
+</div>
+
+
+<div class="container p-5 my-5   bg-light text-dark " style="border:1px solid black;border-left:10px solid green;">
+  <h1 class="text-secondary"> RULES FOR MEMBERS AND TEAM</h1>
+  <h5 class="text-dark"> THE RULES MUST BE FOLLOWED :</h5>
+  <p class="text-info"> 
+      <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+      </ul>
+  </p>
+  
+  
+</div>
+
+<div class="container p-5 my-5   bg-light text-dark " style="border:1px solid black;border-left:10px solid black;">
+  <h1 class="text-secondary"> DIVISIONAL LEADERS</h1>
+  <h5 class="text-dark">The Leader of division 1 : <kbd>SUAN(15:50)</kbd></h5>
+  <p class="text-success">
+      <ul>
+          <li>Control everyone in absence of commanders</li>
+          <li>Give the order to members that the commander has ordered</li>
+          <li>Complete the task within time</li>
+          <li>Keep secret as a secret. </li>
+          <li>Convey the needed to the members. </li>
+      </ul>
+  </p>
+  
+  
+</div>
+<div class="container p-5 my-5   bg-light text-primary " style="border:1px solid black;border-left:10px solid blue;">
+  <h1 class="text-secondary">WHY DIVISION? </h1>
+  <h5 class="text-dark">The answer for this question is :</h5>
+  <p class="text-dark">
+      <ul>
+          <li>To maintain secret</li>
+          <li>For and better administration and information sharing.</li>
+          <li>For better commanding interface.</li>
+      </ul>
+  </p>
+  
+  
+</div>
+<div class="container p-5 my-5   bg-light text-primary " style="border:1px solid black;border-left:10px solid red;">
+  <h1 class="text-secondary">DIVISION 1</h1>
+  <h5 class="text-dark">The Members : </h5>
+  <p class="text-primary">As per the law,the details or the name of the officers would not be revealed. <br>
+  </p>
+  
+  
+</div>
+
+
+<div class="container p-5 my-5   bg-light text-primary " style="border:1px solid black;border-left:10px solid cyan;">
+  <h1 class="text-secondary">COORDINATARGETORS</h1>
+  <h5 class="text-dark">Their role is :</h5>
+  <p class="text-success">
+      <ul>
+          <li>Their role is to target the victims and do to them what ever we tell. </li>
+          <li>To complete the job given to them on the correct time...</li>
+          <li>To pust the victims to their limits.</li>
+          <li>To dominate them in many ways. </li>
+      </ul>
+  </p>
+  
+  
+</div>
+<div class="container p-5 my-5   bg-light text-primary " style="border:1px solid black;border-left:10px solid cornflowerblue;">
+  <h1 class="text-secondary">PREDATORS</h1>
+  <h5 class="text-dark">The spies :</h5>
+  <p class="text-dark">
+      <ul>
+          <li>Simply they are the spies. </li>
+          <li>They must make sure that they provide the correct information on correct time. </li>
+      </ul>
+  </p>
+  
+  
+</div>
+
+
+</div>
+
+<!-- news -->
+<div class="container-fluid bg-light text-dark text-justify tab-pane fade" id="news" style="height:auto">
+    
+    <br>
+    <article class="articleblog">
+        <div class="articledet">
+        <code style="float:right">
+            <b>Day:</b><em>Sunday</em><br>
+            <b>Date:</b><em>23\4\2023</em><br>
+            <b>Time:</b><em>12:21 PM</em><br>
+        </code><br>
+        </div>
+        
+        <h1>
+            Hi Users, 
+        </h1>
+        <p>
+         You can ask us any information realated to school and the world in the queries section, which would be answered in this news section. 
+        </p>
+        
+    </article>
+    <br><br><br>
+    
+    <article class="articleblog">
+        <div class="articledet">
+        <code style="float:right">
+            <b>Day:</b><em>Sunday</em><br>
+            <b>Date:</b><em>23\4\2023</em><br>
+            <b>Time:</b><em>12:22 PM </em><br>
+        </code><br>
+        </div>
+        
+        <h1>
+            Hi Users, as per the request of SYSS(15:54), 
+        </h1>
+        <p>
+         the top secret files of the pentagon are as the follows, click the "open pdf " button to view the secret files. 
+         
+         <h5>Index Pdf👇</h5>
+         <button><a href="https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Index.pdf">Open Pdf</a></button>
+         <br>
+         <h5>Research Papers 👇</h5><br>
+         <button><a href="https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-A-1.pdf">Open Pdf</a></button>
+         <br>
+         <h5>Pentagon Papers IV-A-5 👇 </h5><br>
+         <button><a href="https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-A-5.pdf">Open Pdf</a></button>
+        </p>
+        
+    </article>
+    <br><br><br>
+    
+    
+    <article class="articleblog">
+        <div class="articledet">
+        <code style="float:right">
+            <b>Day:</b><em>Sunday</em><br>
+            <b>Date:</b><em>23\4\2023</em><br>
+            <b>Time:</b><em>12:23 PM </em><br>
+        </code><br>
+        </div>
+        
+        <h1>
+            Hi Users, as per the request of A-14, 
+        </h1>
+        <p>
+         the secret files of the area 51 are as the folllows
+         
+         <br>
+         <h5>Area 51 Admission 👇</h5>
+         <button><a href="https://documents.theblackvault.com/documents/ufos/Area51Admission.pdf">Open Pdf </a></button><br>
+         <h5>CIA (Area 51)👇</h5>
+         <button><a href="https://documents.theblackvault.com/documents/cia/CIA-RDP90B00184R000100020001-6.pdf">Open Pdf </a></button><br>
+         <h5>Aerial Observation 👇</h5>
+         <button><a href="https://www.theblackvault.com/documents/nro/Area51AerialObservation.pdf">Open Pdf </a></button><br>
+         
+        </p>
+        
+    </article>
+    <br><br><br>
+    
+    
+    <article class="articleblog">
+        <div class="articledet">
+        <code style="float:right">
+            <b>Day:</b><em>Sunday</em><br>
+            <b>Date:</b><em>23\4\2023</em><br>
+            <b>Time:</b><em>12:31 PM </em><br>
+        </code><br>
+        </div>
+        
+        <h1>
+            Hi Users,as per the request of JURY(8:15) , 
+        </h1>
+        <p>
+         How to murder others? 
+         <kbd>Read the following pdf to know more. </kbd><br>
+         Click "Open Pdf " to download and read the file. 
+        </p>
+        <br>
+        <h5>How to Murder Others?👇</h5>
+        <button><a href="https://file.scirp.org/pdf/SM_2017031716480041.pdf">Open Pdf</a></button>
+        <br>
+    </article>
+    <br><br><br>
+    
+    
+    <article class="articleblog">
+        <div class="articledet">
+        <code style="float:right">
+            <b>Day:</b><em>Monday</em><br>
+            <b>Date:</b><em>24\4\2023</em><br>
+            <b>Time:</b><em>8:37 PM</em><br>
+        </code><br>
+        </div>
+        
+        <h1>
+            Hi Users, as per the request of YOBI(10:24), 
+        </h1>
+        <p>
+         How can we manage the time? click on the below pdf to know about it and wait for the orders from out commander. <br>
+         click below to open the pdf. 👇
+         <br>
+         <button><a href="https://www.unom.ac.in/asc/Pdf/timemanagement-IMPORTANTone.pdf">Open Pdf</a></button>
+        </p>
+        
+    </article>
+    <br><br><br>
+    
+</div>
+
+<!-- End div  -->
+</div>
+<footer>
+    
+</footer>
+</div>
+</body>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</html>
